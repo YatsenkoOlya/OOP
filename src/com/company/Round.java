@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Round {
-    private Player source;
-    private Player target;
+    private Player source; // кто ходит
+    private Player target; // кто отбивается
 
-    private List<Fight> fights = new ArrayList();
+    private List<Fight> fights = new ArrayList(); // борьба
 
     public Player getSource() {
         return source;
@@ -29,6 +29,7 @@ public class Round {
         return fights;
     }
 
+    // добавляем все бои за 1 раунд
     public void setFights(List<Fight> fights) {
         this.fights = fights;
     }
