@@ -14,4 +14,12 @@ public class Player {
         sb.append(number);
         return sb.toString();
     }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
 }
