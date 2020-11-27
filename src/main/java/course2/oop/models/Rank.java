@@ -1,4 +1,4 @@
-package com.company;
+package course2.oop.models;
 
 public enum Rank {
     SIX("6", 6), SEVEN("7", 7), EIGHT("8", 8), NINE("9", 9),

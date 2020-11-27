@@ -1,4 +1,7 @@
-package com.company;
+package course2.oop;
+
+import course2.oop.models.Game;
+import course2.oop.service.GameService;
 
 public class Main {
 

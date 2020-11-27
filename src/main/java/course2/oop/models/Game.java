@@ -1,4 +1,4 @@
-package com.company;
+package course2.oop.models;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.Stack;
 
 public class Game {
-    private Card trump; // козырь
+    private Card trumpCard;
     private List<Player> players;
-    private Stack<Card> cards; // колода
-    private Map<Player, List<Card>> playersCards; // карты игрока
-    private List<Round> rounds;  //раунды
+    private Stack<Card> cards;
+    private Map<Player, List<Card>> playersCards;
+    private List<Round> rounds;
 
     public Map<Player, List<Card>> getPlayersCards() {
         return playersCards;
@@ -36,12 +36,12 @@ public class Game {
         this.players = players;
     }
 
-    public Card getTrump() {
-        return trump;
+    public Card getTrumpCard() {
+        return trumpCard;
     }
 
-    public void setTrump(Card trump) {
-        this.trump = trump;
+    public void setTrumpCard(Card trumpCard) {
+        this.trumpCard = trumpCard;
     }
 
     public List<Round> getRounds() {

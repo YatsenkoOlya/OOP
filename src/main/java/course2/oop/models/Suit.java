@@ -1,4 +1,4 @@
-package com.company;
+package course2.oop.models;
 
 public enum Suit {
 

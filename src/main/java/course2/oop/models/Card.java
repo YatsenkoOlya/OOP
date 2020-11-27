@@ -1,6 +1,6 @@
-package com.company;
+package course2.oop.models;
 
-public class Card implements Comparable<Card>{
+public class Card implements Comparable<Card> {
     private Rank rank;
     private Suit suit;
 
@@ -26,6 +26,6 @@ public class Card implements Comparable<Card>{
 
     @Override
     public int compareTo(Card second) {
-        return this.rank.getRank()-second.rank.getRank();
+        return this.rank.getRank() - second.rank.getRank();
     }
 }
