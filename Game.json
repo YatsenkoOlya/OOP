@@ -1,0 +1,919 @@
+{
+  "trumpCard": {
+    "rank": "TEN",
+    "suit": "SPADES"
+  },
+  "players": [
+    {
+      "number": "1"
+    },
+    {
+      "number": "2"
+    },
+    {
+      "number": "3"
+    }
+  ],
+  "cards": [],
+  "playersCards": [
+    [
+      {
+        "number": "2"
+      },
+      []
+    ],
+    [
+      {
+        "number": "3"
+      },
+      [
+        {
+          "rank": "QUEEN",
+          "suit": "HEARTS"
+        },
+        {
+          "rank": "QUEEN",
+          "suit": "CLUBS"
+        },
+        {
+          "rank": "QUEEN",
+          "suit": "DIAMONDS"
+        },
+        {
+          "rank": "ACE",
+          "suit": "DIAMONDS"
+        },
+        {
+          "rank": "ACE",
+          "suit": "HEARTS"
+        },
+        {
+          "rank": "ACE",
+          "suit": "CLUBS"
+        },
+        {
+          "rank": "JACK",
+          "suit": "SPADES"
+        },
+        {
+          "rank": "QUEEN",
+          "suit": "SPADES"
+        }
+      ]
+    ],
+    [
+      {
+        "number": "1"
+      },
+      []
+    ]
+  ],
+  "rounds": [
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "2"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SEVEN",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "EIGHT",
+            "suit": "SPADES"
+          }
+        },
+        {
+          "down": {
+            "rank": "EIGHT",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "TEN",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SEVEN",
+        "EIGHT",
+        "TEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "2"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SEVEN",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "EIGHT",
+            "suit": "SPADES"
+          }
+        },
+        {
+          "down": {
+            "rank": "EIGHT",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "TEN",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SEVEN",
+        "EIGHT",
+        "TEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "NINE",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "KING",
+            "suit": "DIAMONDS"
+          }
+        },
+        {
+          "down": {
+            "rank": "KING",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "SEVEN",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "NINE",
+        "KING",
+        "SEVEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "NINE",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "KING",
+            "suit": "DIAMONDS"
+          }
+        },
+        {
+          "down": {
+            "rank": "KING",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "SEVEN",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "NINE",
+        "KING",
+        "SEVEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SEVEN",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "KING",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SEVEN",
+        "KING"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SEVEN",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "KING",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SEVEN",
+        "KING"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "2"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SIX",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SIX",
+        "ACE"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "2"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SIX",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SIX",
+        "ACE"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SEVEN",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "NINE",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "NINE",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "NINE",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SEVEN",
+        "NINE"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SEVEN",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "NINE",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "NINE",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "NINE",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SEVEN",
+        "NINE"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SIX",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "EIGHT",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "SIX",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "KING",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SIX",
+        "EIGHT",
+        "KING"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "SIX",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "EIGHT",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "SIX",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "KING",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "SIX",
+        "EIGHT",
+        "KING"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "2"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "TEN",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "JACK",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "JACK",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "SIX",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "TEN",
+        "JACK",
+        "SIX"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "2"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "TEN",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "JACK",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "JACK",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "SIX",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "TEN",
+        "JACK",
+        "SIX"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "EIGHT",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "TEN",
+            "suit": "DIAMONDS"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "EIGHT",
+        "TEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "EIGHT",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "TEN",
+            "suit": "DIAMONDS"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "EIGHT",
+        "TEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "QUEEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "QUEEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "JACK",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "TEN",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "JACK",
+        "TEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "JACK",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "TEN",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": true,
+      "allRanksInRound": [
+        "JACK",
+        "TEN"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "DIAMONDS"
+          }
+        },
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "QUEEN",
+        "ACE"
+      ]
+    },
+    {
+      "source": {
+        "number": "3"
+      },
+      "target": {
+        "number": "1"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "DIAMONDS"
+          }
+        },
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "QUEEN",
+        "ACE"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "ACE",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "JACK",
+            "suit": "SPADES"
+          }
+        },
+        {
+          "down": {
+            "rank": "ACE",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "ACE",
+        "JACK"
+      ]
+    },
+    {
+      "source": {
+        "number": "2"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "ACE",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "JACK",
+            "suit": "SPADES"
+          }
+        },
+        {
+          "down": {
+            "rank": "ACE",
+            "suit": "CLUBS"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "ACE",
+        "JACK"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "JACK",
+            "suit": "SPADES"
+          }
+        },
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "CLUBS"
+          }
+        },
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "ACE",
+            "suit": "DIAMONDS"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "QUEEN",
+        "JACK",
+        "ACE"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "DIAMONDS"
+          },
+          "up": {
+            "rank": "JACK",
+            "suit": "SPADES"
+          }
+        },
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "CLUBS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "CLUBS"
+          }
+        },
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "HEARTS"
+          },
+          "up": {
+            "rank": "ACE",
+            "suit": "HEARTS"
+          }
+        },
+        {
+          "down": {
+            "rank": "ACE",
+            "suit": "DIAMONDS"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "QUEEN",
+        "JACK",
+        "ACE"
+      ]
+    },
+    {
+      "source": {
+        "number": "1"
+      },
+      "target": {
+        "number": "3"
+      },
+      "fights": [
+        {
+          "down": {
+            "rank": "QUEEN",
+            "suit": "SPADES"
+          }
+        }
+      ],
+      "isPickedUp": false,
+      "allRanksInRound": [
+        "QUEEN"
+      ]
+    }
+  ]
+}
