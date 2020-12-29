@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.Stack;
 
 public class Game {
-    private Card trumpCard;
+    private Card trumpCard; // козырная карта (которая лежит во главе колоды)
     private List<Player> players;
-    private Stack<Card> cards;
-    private Map<Player, List<Card>> playersCards;
-    private List<Round> rounds;
+    private Stack<Card> cards;  // колода
+    private Map<Player, List<Card>> playersCards; // карты игрока
+    private List<Round> rounds; // раунды
 
     public Map<Player, List<Card>> getPlayersCards() {
         return playersCards;
@@ -27,6 +27,9 @@ public class Game {
     public void setCards(Stack<Card> cards) {
         this.cards = cards;
     }
+
+
+
 
     public List<Player> getPlayers() {
         return players;

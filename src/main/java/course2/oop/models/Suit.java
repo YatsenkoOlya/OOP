@@ -2,7 +2,10 @@ package course2.oop.models;
 
 public enum Suit {
 
-    CLUBS("♣"), DIAMONDS("♦"), HEARTS("♥"), SPADES("♠");
+    CLUBS((char) 27 + "[30m♣" + (char) 27 + "[0m"),
+    DIAMONDS((char) 27 + "[31m♦" + (char) 27 + "[0m"),
+    HEARTS((char) 27 + "[31m♥" + (char) 27 + "[0m"),
+    SPADES((char) 27 + "[30m♠" + (char) 27 + "[0m");
 
     private String suit;
 

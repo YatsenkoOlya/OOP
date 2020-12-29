@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Round {
-    private Player source;
-    private Player target;
-    private List<Fight> fights = new ArrayList();
+    private Player source; // кто ходит
+    private Player target; // кто отбивается
+    private List<Fight> fights = new ArrayList(); // борьба
     private boolean isPickedUp = false;  // бито или стянул
-    private List<Rank> allRanksInRound = new ArrayList<>();
+    private List<Rank> allRanksInRound = new ArrayList<>(); // номиналы всех карт, используемых в раунде
 
     public Round(Player source, Player target) {
         this.source = source;
